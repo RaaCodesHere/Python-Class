@@ -95,3 +95,12 @@ Uses of function:
 #     return sum
 # result = sum_function(3,5,7,14,67,89)
 # print("Sum is :", result)
+
+
+# kwargs example:
+# def name_details(**parameter_value):  # multiple parameters
+#     details = f"Hi, I am {parameter_value['name']}. Currently, I am living in {parameter_value['location']}. Yesterday I was in {parameter_value['location']}.   Tommorow I will be in {parameter_value['location']}."
+#     return details
+    
+# result = name_details(location = "Kathmandu",name = "Prabin")
+# print(result)
